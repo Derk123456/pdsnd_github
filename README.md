@@ -7,7 +7,7 @@ Project was created on 23-03-2022
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+Python code to analyse the bike share market in Chicago, New York City and Washington
 
 ### Files used
 Include the files used
