@@ -10,7 +10,10 @@ Analysis of bike share market in three US cities
 Python code to analyse the bike share market in Chicago, New York City and Washington
 
 ### Files used
-Include the files used
+- bikeshare_2.py
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
