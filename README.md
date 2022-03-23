@@ -16,5 +16,5 @@ Python code to analyse the bike share market in Chicago, New York City and Washi
 - washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This is a project work for Udacity based on a python project work
 
