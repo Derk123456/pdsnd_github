@@ -49,12 +49,12 @@ def get_filters():
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_list = ['chicago', 'new york city', 'washington']
-    text = 'Chicago, New York City or Washington: '
+    text = 'Choose one of the following cities: Chicago, New York City or Washington: '
     city = data_check(city_list, text)
 
     # get user input for filter
     filter_list = ['month', 'day', 'both', 'none']
-    text = 'Would you like to filter the data by month, day, both or not at all? Type "None" for no time filter: '
+    text = 'Would you like to filter the data by month, day, both or not at all?\nType "None" for no time filter: '
     filter_name = data_check(filter_list, text)
 
     # get user input for month (january, february, ... , june)
@@ -270,7 +270,7 @@ def raw_data(df):
 
 
 def main():
-    while True:
+    while 1:
         city, month, day, chosen_filter = get_filters()
         df = load_data(city, month, day)
 
