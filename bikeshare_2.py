@@ -269,7 +269,7 @@ def raw_data(df):
 
 
 def main():
-    while True:
+    while 1:
         city, month, day, chosen_filter = get_filters()
         df = load_data(city, month, day)
 
