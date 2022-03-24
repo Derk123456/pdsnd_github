@@ -54,7 +54,7 @@ def get_filters():
 
     # get user input for filter
     filter_list = ['month', 'day', 'both', 'none']
-    text = 'Would you like to filter the data by month, day, both or not at all? Type "None" for no time filter: '
+    text = 'Would you like to filter the data by month, day, both or not at all?\nType "None" for no time filter: '
     filter_name = data_check(filter_list, text)
 
     # get user input for month (january, february, ... , june)
